@@ -1,0 +1,7 @@
+[
+  {"id":"R-01","title":"Ransomware on file servers","owner":"CISO","likelihood":4,"impact":5,"residualLikelihood":2,"residualImpact":4,"treatment":"mitigate","controls":["Immutable backups","EDR","Network segmentation"],"lastReview":"2026-02-15"},
+  {"id":"R-02","title":"Phishing leads to mailbox takeover","owner":"IT Manager","likelihood":5,"impact":3,"residualLikelihood":3,"residualImpact":3,"treatment":"mitigate","controls":["MFA","Awareness training"],"lastReview":"2026-03-01"},
+  {"id":"R-03","title":"Legacy ERP without vendor support","owner":"CIO","likelihood":4,"impact":4,"treatment":"accept","lastReview":"2025-09-01"},
+  {"id":"R-04","title":"Supplier breach exposes customer data","owner":"DPO","likelihood":3,"impact":4,"treatment":"mitigate","lastReview":"2026-01-10"},
+  {"id":"R-05","title":"=HYPERLINK(\"http://bad.example\") test of CSV safety","owner":"QA","likelihood":1,"impact":1,"treatment":"accept","lastReview":"2026-03-01"}
+]
