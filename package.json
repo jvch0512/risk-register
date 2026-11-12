@@ -1,0 +1,18 @@
+{
+  "name": "risk-register",
+  "version": "0.1.0",
+  "description": "Security risk register tool: scoring, residual risk, heat map, overdue reviews, Markdown and CSV export. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "bin": { "risk-register": "dist/src/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/risk.test.js",
+    "lint": "tsc --noEmit"
+  },
+  "repository": "github:jvch0512/risk-register",
+  "keywords": ["risk", "grc", "iso27001", "security", "typescript"],
+  "devDependencies": { "@types/node": "^22.0.0", "typescript": "^5.6.0" },
+  "engines": { "node": ">=20" }
+}
